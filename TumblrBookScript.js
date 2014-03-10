@@ -8,7 +8,7 @@ var script = document.createElement('script'),
     siteURL = "http://solacingsavant.tumblr.com/",
     domain = getDomain(siteURL);
 
-script.src = 'http://api.tumblr.com/v2/blog/' + domain + '/posts?api_key=Srhk9qkcJO69pAoB4ltM5uIqpwUBO7kgDqDEaCD9Jo8EafWyHE&limit=' + limit + '&offset=' + offset + '&callback=filter';
+script.src = 'http://api.tumblr.com/v2/blog/' + domain + '/posts?api_key=APIKEYHERE=' + limit + '&offset=' + offset + '&callback=filter';
 // offset += limit;
 // Do it again
 indentedAppend(document.getElementsByTagName('head')[0], script);
